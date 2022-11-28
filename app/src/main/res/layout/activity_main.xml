@@ -39,4 +39,10 @@
         android:layout_margin="16dp"
         android:layout_alignParentRight="true"/>
 
+    <ImageView
+        android:id="@+id/volumeCtrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_baseline_volume_up_24" />
+
 </RelativeLayout>
