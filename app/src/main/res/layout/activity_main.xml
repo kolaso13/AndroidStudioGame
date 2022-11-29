@@ -13,21 +13,13 @@
         android:scaleType="centerCrop"/>
 
     <TextView
+        android:id="@+id/play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="48sp"
-        android:text="I Have To Fly"
-        android:textColor="#ffffff"
-        android:layout_centerHorizontal="true"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Play"
-        android:textSize="64sp"
         android:layout_centerInParent="true"
+        android:text="Play"
         android:textColor="#000000"
-        android:id="@+id/play"/>
+        android:textSize="64sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -43,6 +35,22 @@
         android:id="@+id/volumeCtrl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/highScoreTxt"
+        android:layout_alignBottom="@+id/highScoreTxt"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toStartOf="@+id/highScoreTxt"
         app:srcCompat="@drawable/ic_baseline_volume_up_24" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110.73dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="-5dp"
+        app:srcCompat="@drawable/fly1" />
 
 </RelativeLayout>
